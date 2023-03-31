@@ -1,9 +1,5 @@
 import "./App.css";
-import {
-  Route,
-  BrowserRouter as Router,
-  Switch,
-} from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Login from "./pages/Login/login";
 import Signup from "./pages/Signup/signup";
 import Admindb from "./pages/AdminDB/admindb";
@@ -23,7 +19,7 @@ function App() {
           <Route path="/checkout_stock" element={<Checkout />} />
 
           {/* <LSide/> */}
-        </Swit>
+        </Switch>
       </Router>
     </div>
   );
