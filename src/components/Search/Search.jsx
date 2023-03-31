@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Search } from "@mui/icons-material";
 
 const Searchh = () => {
-  const [searchValue, setSearchValue] = useState("");
+  // const [searchValue, setSearchValue] = useState("");
 
   // const handleSearch = (event) => {
   //   setSearchValue(event.target.value);

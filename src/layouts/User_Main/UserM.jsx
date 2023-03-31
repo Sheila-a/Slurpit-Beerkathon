@@ -8,7 +8,6 @@ import Date from "../../components/Date/Date";
 import Searchh from "../../components/Search/Search";
 import { Cards } from "../../components/DB_Cards/DB_Cards";
 import { Blue, Green, Yellow, Pink } from "../../assets/img";
-import { Link } from "react-router-dom";
 import UserP from "../../components/User_Popup/UserP";
 import design from "./style.module.css";
 

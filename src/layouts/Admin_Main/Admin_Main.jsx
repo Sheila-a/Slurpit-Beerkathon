@@ -8,11 +8,10 @@ import Date from "../../components/Date/Date";
 import Searchh from "../../components/Search/Search";
 import { Cards } from "../../components/DB_Cards/DB_Cards";
 import { Blue, Green, Yellow, Pink } from "../../assets/img";
-import { Link } from "react-router-dom";
 import AdminP from "../../components/Admin_Popup/AdminP";
 import design from "./style.module.css";
 
-const Admin_Main = () => {
+const AdminMain = () => {
   const [productData, setProductData] = useState([]);
   const [rows, setRows] = useState([]);
   const [showPopup, setShowPopup] = useState(false); // state to keep track of whether to show the popup or not
@@ -144,4 +143,4 @@ const Admin_Main = () => {
   );
 };
 
-export default Admin_Main;
+export default AdminMain;

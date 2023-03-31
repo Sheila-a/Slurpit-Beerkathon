@@ -10,6 +10,8 @@ const Sup = () => {
   const [companyEmail, setCompanyEmail] = useState("");
   const [error, setError] = useState("");
 
+  console.log(setFullName, setCompanyEmail, error);
+
   const handleEmployeeIdChange = (e) => {
     setEmployeeId(e.target.value);
   };
