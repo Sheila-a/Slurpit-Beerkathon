@@ -1,0 +1,76 @@
+.cont {
+    background-color: #f6f5f5;
+width: 50%;
+
+}
+ 
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 15vh 6vh 10vh 6vh;
+    padding: 3vh 6vh;
+}
+.card a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.p{
+    text-align: center;
+}
+.card p>span{
+color: #0A6EC7;
+/* font-weight: 600; */
+}
+
+.card p>span:hover {
+    cursor: pointer;
+    font-weight: 900;
+    transition: .3s ease;
+}
+
+
+
+.title{
+    text-align: center;
+}
+
+.title h2 {
+    margin-bottom: 0;
+}
+
+.fields{
+    margin-bottom: 3vh;
+}
+
+.fields p{
+    margin: 0;
+    margin-bottom: 2vh;
+    font-size: 12px;
+}
+
+.fields input {
+    border-radius: 10px;
+    border: 2px solid #EAE8EB ;
+    padding: 12px;
+    width: 93%;
+}
+
+.fields input:focus{
+    border: 2px solid #9BC4E8;
+    outline: none;
+}
+
+.btn {
+    background-color: #9BC4E8;
+    margin-top: 10vh;
+    color: #fff;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: #0A6EC7;
+    cursor: pointer; 
+    transition: .5s ease;
+}
