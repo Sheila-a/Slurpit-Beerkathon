@@ -1,0 +1,133 @@
+.cont {
+    width: 80%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    padding: 0 5vh;
+}
+
+.nav_right {
+    /* flex: ; */
+    width: 20vw;
+    display: flex;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NV_right {
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    width: 5.5vw;
+    justify-content: space-between;
+
+}
+
+.dwmy {
+    border-radius: 20px;
+    border: 1px solid #0A6EC7;
+    width: 100px;
+    padding: 4px 10px;
+    margin-left: 5vh;
+}
+
+.cardss {
+    display: flex;
+    margin-top: 5vh;
+}
+
+.crd_1 {
+    background-color: #9BC4E8;
+}
+
+.crd_2 {
+    background-color: #91D7C2;
+}
+
+.crd_3 {
+    background-color: #F8ED97;
+}
+
+.crd_4 {
+    background-color: #F4A9A9;
+}
+
+table {
+    margin-left: 5vh;
+    margin-top: 5vh;
+    width: 93%;
+    border-spacing: 0px
+}
+
+
+table>thead>tr>th {
+    text-align: left;
+}
+
+td {
+    border: hidden;
+    padding: 15px 0;
+}
+
+td:first-child {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+td:last-child {
+    padding-right: 10px;
+    border-radius: 0 10px 10px 0;
+
+}
+
+tr:hover td {
+    background: #3487D1;
+    cursor: pointer;
+    transition: .3s ease-in;
+    color: #fff;
+}
+
+.refresh {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #0A6EC7;
+    border-radius: 5px;
+}
+
+.refresh span {
+    margin-right: 1vh;
+}
+
+.refresh:hover {
+    cursor: pointer;
+    background-color: #0A6EC7;
+    color: #fff;
+    transition: .3s ease-in;
+
+
+}
+
+.adminp_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background: red; */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* darken the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    /* show above everything else */
+}

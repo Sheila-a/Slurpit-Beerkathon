@@ -1,0 +1,60 @@
+.cont {
+    width: 80%;
+}
+
+
+.card {
+    border-radius: 20px;
+    box-shadow: 20px -10px 20px 5px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 50%;
+    padding: 3vh 5vh;
+    margin: 10.1vh auto;
+    align-items: center;
+}
+
+.fields {
+    margin-bottom: 5vh;
+}
+
+.card p {
+    margin: 0;
+    margin-bottom: 2vh;
+    /* font-size: 12px; */
+}
+
+.card input {
+    border-radius: 10px;
+    border: 2px solid #EAE8EB;
+    padding: 12px;
+    width: 93%;
+}
+
+.card input:focus {
+    border: 2px solid #9BC4E8;
+    outline: none;
+}
+
+.btn {
+    background-color: #9BC4E8;
+    margin-top: 16.2vh;
+    color: #fff;
+    width: 100%;
+    /* padding: 15px 30px; */
+}
+
+.btn:hover {
+    background-color: #0A6EC7;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+
+.card p,
+input {
+    text-align: left;
+}
+
+.error {
+    color: red;
+}

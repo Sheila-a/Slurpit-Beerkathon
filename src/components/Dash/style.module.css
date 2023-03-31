@@ -1,0 +1,17 @@
+.dash{
+    padding: 5vh ;
+    text-align: left;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+}
+
+.dash:hover {
+background-color: #71ABDF;
+cursor: pointer;
+transition: .5s ease;
+}
+
+.ico{
+    margin-right: 2vh;
+}

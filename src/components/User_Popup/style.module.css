@@ -1,0 +1,58 @@
+.pop {
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+    padding: 5vh 5vh 4vh 5vh;
+    width: 30%;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thrills {
+    margin-bottom: 0;
+}
+
+.enclose p,
+.carton {
+    margin: 0;
+    font-size: 14px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    width: 100%;
+    /* background-color: #71A8DF; */
+    background-color: #0A6EC7;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 3vh;
+}
+
+.back:hover {
+    cursor: pointer;
+    transition: .4s ease;
+    color: #fff;
+}
+
+.level,
+.history {
+    background-color: #71A8DF;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 7vh;
+    cursor: pointer;
+}
+
+.level p,
+.history p {
+    margin: 0;
+    padding: 1vh;
+}
