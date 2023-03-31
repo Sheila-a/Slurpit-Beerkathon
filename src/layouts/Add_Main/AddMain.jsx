@@ -65,7 +65,7 @@ const AddMain = () => {
         <Button
           className={design.btn}
           name="Continue"
-          onClick={handleContinue && }
+          onClick={handleContinue}
         />
       </form>
     </div>
