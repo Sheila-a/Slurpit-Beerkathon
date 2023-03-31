@@ -13,10 +13,10 @@ const AdminP = () => {
   };
 
   const handleAdd = () => {
-    window.location = "http://localhost:3000/add_stock";
+    window.location = "https://slurpit-innovateher.netlify.app/add_stock";
   };
   const handleCheckout = () => {
-    window.location = "http://localhost:3000/checkout_stock";
+    window.location = "https://slurpit-innovateher.netlify.app/checkout_stock";
   };
 
   useEffect(() => {
