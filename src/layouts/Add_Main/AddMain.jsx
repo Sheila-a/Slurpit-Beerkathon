@@ -57,7 +57,7 @@ const AddMain = () => {
           {" "}
           <p>Quantity(carton)</p>
           <input
-            type="numbers"
+            type="number"
             value={quantity}
             onChange={(event) => setQuantity(parseInt(event.target.value, 10))}
           />

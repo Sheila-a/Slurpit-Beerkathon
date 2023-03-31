@@ -11,7 +11,9 @@ const Sup = () => {
   const [error, setError] = useState("");
 
   console.log(setFullName, setCompanyEmail, error);
-
+  const handleMove = () => {
+    window.location = "https://slurpit-innovateher.netlify.app/admin_dashboard";
+  };
   const handleEmployeeIdChange = (e) => {
     setEmployeeId(e.target.value);
   };
@@ -96,7 +98,7 @@ const Sup = () => {
           <Button
             className={design.btn}
             name="Continue"
-            onClick={handleContinue}
+            onClick={handleContinue && handleMove}
           />
         </form>
         <p className={design.p}>
